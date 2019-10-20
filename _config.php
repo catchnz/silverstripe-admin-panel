@@ -2,4 +2,4 @@
 /**
 */
 
-Object::add_extension( 'SiteTree', 'AdminPanelDecorator' );
+SS_Object::add_extension( 'SiteTree', 'AdminPanelDecorator' );
