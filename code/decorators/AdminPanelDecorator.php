@@ -1,5 +1,16 @@
 <?php
 
+namespace Oilee80\AdminPanel\decorators;
+
+use DataExtension;
+use Director;
+use Controller;
+use Permission;
+use Requirements;
+use Versioned;
+use ArrayList;
+
+
 class AdminPanelDecorator extends DataExtension
 {
 

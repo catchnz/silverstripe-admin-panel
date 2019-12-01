@@ -15,6 +15,15 @@
 		"silverstripe/framework": "3.*"
 	},
 	"extra": {
-		"installer-name": "admin-panel"
-	}
+        "installer-name": "admin-panel",
+        "expose": [
+            "css",
+            "js"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Oilee80\\AdminPanel\\": "code/"
+        }
+    }
 }
